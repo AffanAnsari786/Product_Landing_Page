@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="images/logo2.png" class="logo"></a>
+            <ul>
+                <li><a href="#" class="transiton-header">Home</a></li>
+                <li><a href="#" class="transiton-header">Menu</a></li>
+                <li><a href="#" class="transiton-header">What's New</a></li>
+                <li><a href="#" class="transiton-header">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>Don't stop chasing your dreams,<br> because dreams do come <span>true!</span></h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, adipisci sunt porro sed maxime
+                    accusamus, numquam illo explicabo cum dolorem culpa magni aspernatur tempore. Deserunt ratione
+                    molestias ut dolor molestiae.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            
+            <div class="imgBox">
+                <img src="images/bats.png" class="main-product">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="images/ball1.png" style="width: 80px;"  onclick="imgSlider('images/ball1.png');changeCircleColor('#331D2C')"></li>
+            <li><img src="images/bats.png" onclick="imgSlider('images/bats.png');changeCircleColor('#017143')"></li>
+            <li><img src="images/helmet.png" onclick="imgSlider('images/helmet.png');changeCircleColor('#205375')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
